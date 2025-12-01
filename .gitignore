@@ -1,0 +1,22 @@
+#temp files
+.DS_Store
+.tmp
+.sass-cache
+tmp/
+out/
+
+coverage
+node_modules
+build/
+*~
+
+#IDE ignores
+.idea/
+.clinic
+.vscode/
+
+#others
+*.log
+log
+.env
+*.iml
