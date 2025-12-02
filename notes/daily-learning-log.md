@@ -22,3 +22,16 @@
 - Parameters adalah variable yg dimiliki oleh sebuah method yg digunakan untuk menyimpan dan mendeklarasikan nya.
 - Arguments adalah nilai atau variable yg diberikan kedalam sebuah method yg dipanggil tipe data yg di berikan harus sama dan harus sesuai dengan parameters pada method tertentu.
 - Void memiliki arti tidak mengembalikan nilai, keyword ini digunakan ketika mendeklarasikan method.
+
+### Day 2 - [02/12/25]
+**Topics**: Comments, String, Memory Stack, Frame, Heap, String Pool, Array, Null, Method Overloading
+**What I Learned**:
+- Comments adalah tanda bahwa suatu statement atau multi line akan diabaikan oleh compiler dimaksud tidak akan terbaca oleh mesin, kegunaan nya untuk programmer menjelaskan code nya (why this code).
+- String adalah tipe data object/class berbeda dengan tipe data primitives lain nya, cara penggunaan nya saja yg mirip, menyimpan literal kata ditandai kutip 2 di depan dan dibelakang.
+- Memory stack adalah suatu mekanisme cara kerja dalam pemrosesan pemanggilan setiap method pada code java, memory stack bersifat LIFO last in first out.
+- Frame adalah nama lain dari function/method yg ada di code yg sudah kita buat dimana frame yg kita buat akan di masukan kedalam memory stack agar diatur sesuai urutan pemanggilan.
+- Heap adalah salah satu mekanisme mirip dengan memory stack tapi heap digunakan untuk object atau references types.
+- String Pool adalah memory yg berada di dalam heap, digunakan untuk menyimpan value dari object String.
+- Array adalah tempat untuk menyimpan beberapa value di satu variable sesuai dengan tipe data nya, array index dimulai dari 0, dan array bersifat tetap. array memiliki default value yaitu 0 jika tipe data primitives jika boolean false lalu jika object maka nilai default nya akan null.
+- Null adalah tanda bahwa variable reference type tidak memiliki alamat ke salah satu object.
+- Method Overloading adalah konsep di java untuk menggunakan nama method bisa lebih dari satu dengan catatan parameters nya harus unik.

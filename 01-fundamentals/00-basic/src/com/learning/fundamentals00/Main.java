@@ -34,5 +34,37 @@ public class Main {
         if (!myFirstBoolean) {
             System.out.println("got some remainder");
         }
+
+        // Increment & Decrement
+
+        int number = 0;
+        System.out.println(number++); // post increment -> ketika code dijalankan hasil tetap 0 karna belum di tambah hasil nya 0.
+        System.out.println("Hasil Post Increment " + number);
+        int numberTwo = 0;
+        System.out.println(++numberTwo); // pre increment -> ketika code belum dijalankan akan ditambah terlebih dahulu baru di jalankan hasil nya 1.
+        System.out.println("Hasil Pre Increment " + numberTwo);
+
+        // Comparison Operator
+
+        // < <= > >= == !=
+        System.out.println(10 > 10);
+        System.out.println(10 >= 10);
+        System.out.println(10 < 10);
+        System.out.println(10 <= 10);
+        System.out.println(10 == 10);
+        System.out.println(10 != 10);
+
+        // Strings
+
+        String firstString = "learning";
+        String secondString = "code";
+        String thirdString = firstString + secondString; // Concat -> menggabungkan 2 variable string jika tipe data int dan literal string di concat akan menjadi String.
+        System.out.println(thirdString.toUpperCase()); // method uppercase digunakan untuk membuat kalimat menjadi besar semua.
+        System.out.println(thirdString.toLowerCase()); // method lowercase digunakan untuk membuat kalimat menjadi kecil semua.
+        System.out.println(thirdString.substring(0, 8)); // untuk memotong kalimat berdasarkan index dimulai dari 0.
+        System.out.println(" ".isEmpty()); // untuk menentukan hasil berupa boolean jika kalimat kosong atau tidak.
+        System.out.println(" ".isBlank()); // untuk menentukan hasil berupa boolean jika kalimat kosong atau tidak.
+        System.out.println(" a ".trim()); // untuk menghapus spasi dalam kalimat.
+
     }
 }
