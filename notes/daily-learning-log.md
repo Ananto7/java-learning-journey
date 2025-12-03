@@ -35,3 +35,18 @@
 - Array adalah tempat untuk menyimpan beberapa value di satu variable sesuai dengan tipe data nya, array index dimulai dari 0, dan array bersifat tetap. array memiliki default value yaitu 0 jika tipe data primitives jika boolean false lalu jika object maka nilai default nya akan null.
 - Null adalah tanda bahwa variable reference type tidak memiliki alamat ke salah satu object.
 - Method Overloading adalah konsep di java untuk menggunakan nama method bisa lebih dari satu dengan catatan parameters nya harus unik.
+
+### Day 3 - [03/12/25]
+**Topic**:
+**What I Learned**: String Build, Scanner, Switch, Case, Break, Return, Default, Yield, Looping, Math Sqrt
+- String build adalah salah satu kelas string yg digunakan untuk memodifikasi kalimat string tidak seperti assignment string pada umum nya yg bersifat immutable sedangkan string build mutable.
+- Scanner adalah salah satu class / object yg digunakan untuk menerimaa input user dari console dan file.
+- Switch statement adalah salah satu pengkondisian code berdasarkan option pilihan berupa variable bilangan maupun string dan char serta enum, mirip dengan if beda nya jika if menggunakan boolean tapi model enhancement wajib menggunakan default sedangkan yg model lama opsional.
+- Case adalah keyword yg digunakan bersamaan dengan switch case mirip seperti option pilihan yg dipilih akan menjalankan code atau statement nya. 
+- Break adalah keyword java yg digunakan untuk keluar dari looping atau suatu proses, break di gunakan pada proses switch case sebagai pembatas agar tidak terjadi fall through pada switch new enhancement fall through sudah tidak ada lagi dan sudah tidak menggunakan break dapat digunakan dalam loop untuk keluar dari perulangan.
+- Return adalah keyword java yg digunakan untuk keluar mirip dengan break, perbedaan nya ada di sifat return keluar bisa sambil membawa value sedangkan break tidak, dan return bisa exit dari method sedangkan break hanya di looping atau proses switch.
+- Default adalah keyword yg digunakan mirip dengan else pada if tapi default digunakan di switch ketika tidak ada case yg dipilih atau sesuai maka akan masuk ke default.
+- Yield adalah new keyword untuk switch case model baru / enhancement digunakan ketika kita akan membuat code block pada suatu case dan akan mengembalikan return value maka menggunakan yield.
+- Looping adalah konsep perulangan pada code yg dijalankan sesuai dengan kondisi yg terpenuhi ada 3 loop yg digunakan pada java for untuk perulangan secara pasti, while perulangan tidak pasti akhir nya selama kondisi terpenuhi akan di ulang prosses nya dan do while sama seperti while tapi berbeda cara kerja pengecekan kondisi dilakukan di akhir proses jadi bisa dikatakan proses akan dijalankan sekali baru melakukan pengecekan kondisi.
+- Math Sqrt adalah library bawaan java di dalam class Math sqrt digunakan untuk mencari bilangan akar kuadrat dari suatu angka dan akan return bilangan real.
+- 

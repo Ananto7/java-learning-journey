@@ -58,6 +58,8 @@ public class Main {
 
         String firstString = "learning";
         String secondString = "code";
+        String greeting = new String("Hello");
+        String name = new String("Andri");
         String thirdString = firstString + secondString; // Concat -> menggabungkan 2 variable string jika tipe data int dan literal string di concat akan menjadi String.
         System.out.println(thirdString.toUpperCase()); // method uppercase digunakan untuk membuat kalimat menjadi besar semua.
         System.out.println(thirdString.toLowerCase()); // method lowercase digunakan untuk membuat kalimat menjadi kecil semua.
@@ -66,5 +68,53 @@ public class Main {
         System.out.println(" ".isBlank()); // untuk menentukan hasil berupa boolean jika kalimat kosong atau tidak.
         System.out.println(" a ".trim()); // untuk menghapus spasi dalam kalimat.
 
+        int numberString = 42;
+        String numberAsString = String.valueOf(numberString);
+
+        double price = 19.99;
+        String priceAsString = String.valueOf(price);
+
+        String text = "Hello, Java!";
+
+        int getLength = text.length();
+        System.out.println("Length: " + getLength);
+
+        char firstChar = text.charAt(0);
+        char lastChar = text.charAt(text.length() - 1);
+
+        String str1 = "Hello";
+        String str2 = "Java!";
+        boolean isEqual = str1.equals(str2);
+        boolean isEqualIgnoreCase = str1.equalsIgnoreCase(str2);
+
+        boolean startsWith = str1.startsWith("He");
+        boolean endsWith = str1.endsWith("lo");
+
+        String original = " Hello, Java! ";
+
+        String trimmed = original.trim();
+        System.out.println("trim " + trimmed);
+
+        String replaced = original.replace("Java", "World");
+
+        String text2 = "Java is Awesome!";
+
+        boolean isContains = text2.contains("Java");
+
+        int index = text2.indexOf("is");
+        int lastIndex = text2.lastIndexOf("a");
+
+        String fromIndex = text2.substring(5);
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hello");
+        sb.append(", ");
+        sb.append("Java");
+        sb.append("!");
+        String result = sb.toString();
+        System.out.println(result);
+
+        String setence = "Hello Java World";
+        System.out.println("Starts with 'World': " + setence.endsWith("World") + '\u0022');
     }
 }
