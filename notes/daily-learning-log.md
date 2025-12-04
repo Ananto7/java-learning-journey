@@ -59,3 +59,12 @@
 - Debug adalah istilah programer untuk mencari issue atau error pada code ketika run time program di jalankan.
 - Breakpoint debug adalah sebuah node atau titik tuju, yg digunakan untuk mempause suatu proses pada kegiatan debug sebuah program, breakpoint bisa lebih dari satu.
 - Continue adalah keyword yg digunakan untuk skip satu proses perulangan yg ada di looping sebuah program.
+
+### Day 5 - [05/12/25]
+**Topic**:
+**What I Learned**: Local Variable, Object, New, Static, Package
+- Local Variable adalah suatu mekanisme pada bahasa pemograman atau di java yg menandakan sebuah cakupan penggunaan pada variable, yg dimaksud kita bisa menggunakan variable yg sudah kita buat. Ketika kita buat variable di outer block maka inner block akan dapat mengakses nya begitu juga inner block jika memiliki variable yg di deklarasikan di inner block maka bisaa digunakan di inner itu tidak bisa di outer.
+- Object adalah mengacu pada variable yg memiliki referensi sebuah class atau instance, ditandai pada dekalrasi nya menggunakan keyword new.
+- New adalah suatu keyword yg digunakan untuk membuat instance baru dari sebuah class.
+- Static adalah penamaan pada method maupun field yg di berikan untuk mendapatkan efek khusus hampir mirip cara kerja dengan instance, perbedaan nya untuk deklarasi instance/object menggunakan new sedangkan static hanya perlu menambahkan static pada awal deklarasi. Cara pemanggilan static hanya perlu menggunakan Nama Class yg dimana di dalam nya ada field static maupun method static, dan hanya bisa di panggil oleh method static juga.
+- Package adalah folder pada project java, package bertujuan untuk mengatur kumpulan folder project pada java, yg nanti nyaa package berhubungan dengan access modifier.
