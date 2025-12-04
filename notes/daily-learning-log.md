@@ -49,4 +49,13 @@
 - Yield adalah new keyword untuk switch case model baru / enhancement digunakan ketika kita akan membuat code block pada suatu case dan akan mengembalikan return value maka menggunakan yield.
 - Looping adalah konsep perulangan pada code yg dijalankan sesuai dengan kondisi yg terpenuhi ada 3 loop yg digunakan pada java for untuk perulangan secara pasti, while perulangan tidak pasti akhir nya selama kondisi terpenuhi akan di ulang prosses nya dan do while sama seperti while tapi berbeda cara kerja pengecekan kondisi dilakukan di akhir proses jadi bisa dikatakan proses akan dijalankan sekali baru melakukan pengecekan kondisi.
 - Math Sqrt adalah library bawaan java di dalam class Math sqrt digunakan untuk mencari bilangan akar kuadrat dari suatu angka dan akan return bilangan real.
-- 
+
+### Day 4 - [04/12/25]
+**Topic**:
+**What I Learned**: Math Pow, Printf, Math Random, Debug, Breakpoint, Continue
+- Math pow adalah library math bawaan pada java berfungsi untuk menghitung bilangan perpangkatan.
+- Printf adalah method yg mirip dengan print & println untuk menampilkan output ke console, perbedaan nya ada di formating literal menggunakan kombinasi serta pemanggilan argument nya.
+- Math Random adalah library math bawaan pada java digunakan untuk menentukan angka random sesuai dengan kamauan user library ini memiliki cara kerja memberika angka double dari 0.0 - 1.0 jadi ketika kita ingin menggunakan nya biasa kita kalikan dengan angka.
+- Debug adalah istilah programer untuk mencari issue atau error pada code ketika run time program di jalankan.
+- Breakpoint debug adalah sebuah node atau titik tuju, yg digunakan untuk mempause suatu proses pada kegiatan debug sebuah program, breakpoint bisa lebih dari satu.
+- Continue adalah keyword yg digunakan untuk skip satu proses perulangan yg ada di looping sebuah program.

@@ -1,2 +1,2 @@
-# java-learning-journey
+# Java-Learning-Journey
 become java developer
