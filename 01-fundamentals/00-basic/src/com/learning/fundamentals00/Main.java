@@ -116,5 +116,16 @@ public class Main {
 
         String setence = "Hello Java World";
         System.out.println("Starts with 'World': " + setence.endsWith("World") + '\u0022');
+
+        int currentYear = 2025;
+        String usersDateOfBirth = "1999";
+
+        int dateOfBirth = Integer.parseInt(usersDateOfBirth);
+
+        System.out.print("Age: " + (currentYear - dateOfBirth));
+
+        String usersAgeWithPartialYear = "22.5";
+        double ageWithPartialYear = Double.parseDouble(usersAgeWithPartialYear);
+        System.out.println("ageWithPartialYear = " + ageWithPartialYear);
     }
 }

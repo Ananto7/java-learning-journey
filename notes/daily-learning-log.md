@@ -68,3 +68,14 @@
 - New adalah suatu keyword yg digunakan untuk membuat instance baru dari sebuah class.
 - Static adalah penamaan pada method maupun field yg di berikan untuk mendapatkan efek khusus hampir mirip cara kerja dengan instance, perbedaan nya untuk deklarasi instance/object menggunakan new sedangkan static hanya perlu menambahkan static pada awal deklarasi. Cara pemanggilan static hanya perlu menggunakan Nama Class yg dimana di dalam nya ada field static maupun method static, dan hanya bisa di panggil oleh method static juga.
 - Package adalah folder pada project java, package bertujuan untuk mengatur kumpulan folder project pada java, yg nanti nyaa package berhubungan dengan access modifier.
+
+### Day 6 - [06/12/25]
+**Topic**:
+**What I Learned**: System.in, System Console, Exception, Try statement, Catch, Import
+- System.in adalah menandakan kita bisa mendapatkan input konsol atau terminal biasa digunakan sebagai argumen setiap pembuatan objek scanner.
+- System.console adalah keyword yg digunakan untuk mengambil input atau menampilkan output pada terminal.
+- Exception adalah sebuah class dan tanda sebuah error yg ada di code. 
+- Try Statement adalah sebuah statement yg digunakan ketika kita ingin membuat code kita dapat menerima error kita harapkan dan dapat di tangani.
+- Catch adalah keyword pada java biasa kita gunakan ketika membuat try statement, kegunaan nya adalah menangkap error yg di lempar ke lingkup try statement yg sudah kita buat.
+- Import adalah keyword yg digunakan untuk memanggil sebuah package, dimana di dalam package tersebut terdapat class/library orang lain atau bawaan dari java yg bisa kita gunakan.
+- 
