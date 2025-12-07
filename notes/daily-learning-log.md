@@ -78,4 +78,6 @@
 - Try Statement adalah sebuah statement yg digunakan ketika kita ingin membuat code kita dapat menerima error kita harapkan dan dapat di tangani.
 - Catch adalah keyword pada java biasa kita gunakan ketika membuat try statement, kegunaan nya adalah menangkap error yg di lempar ke lingkup try statement yg sudah kita buat.
 - Import adalah keyword yg digunakan untuk memanggil sebuah package, dimana di dalam package tersebut terdapat class/library orang lain atau bawaan dari java yg bisa kita gunakan.
-- 
+
+### Day 7 - [07/12/25]
+**Topic**: - review ulang soal, mengerjakan soal baru terkait looping pengkondisian dan input menggunakan scanner. 
