@@ -81,3 +81,18 @@
 
 ### Day 7 - [07/12/25]
 **Topic**: - review ulang soal, mengerjakan soal baru terkait looping pengkondisian dan input menggunakan scanner. 
+
+### Day 8 - [08/12/25]
+**Topic**:
+**What I Learned**: Access Modifier, Public, Private, Protected, Default, Encapsulation, Getter, Setter, This, Constructor, Constructor Chaining,
+- access modifier adalah suatu konsep pada java untuk menentukan akses level pada suatu class method dan variable, access modifier ada 4 (public, private, protected, default).
+- public adalah keyword& salah satu access modifier pada java, sebagai penanda bahwa method atau field yg dideklarasikan dengan public akan bisa di akses di seluruh package.
+- private adalah access modifier digunakan jika hanya ingin digunakan pada class itu sendiri.
+- protected adalah access modifier yg digunakan untuk menandakan bahwa yg bisa digunakan hanya class dari turunan nya saja atau inheritance.
+- default adalah access modifier yg hanya bisa digunakan pada package yg sama saja, penggunaan default ketika deklarasi tidak menentukan salah satu dari access modifier maka otomatis akan default.
+- Encapsulation adalah konsep oop yg digunakan untuk menyembunyikan sebuah field method maupun class, tujuan nya untuk menutup segala internal proses yg ada.
+- getter adalah method yg digunakan untuk mendapatkan value dari private field.
+- setter adalah method yg digunakan untuk menetapkan/sets value untuk private field.
+- this adalah keyword yg digunakan sebagai penanda class itu sendiri biasa digunakan untuk me reference field dan method yg ada di class itu.
+- Constructor adalah method khusus sebuah kelas ketika membuat instance object baru dengan new namakelas(). jika tidak membuat constructor maka akan di buat otomatis, tidak ada return type nama method harus sama dengan class nya dan mempunyai konsep overload method. Kegunaan constructor untuk memberikan nilai awal pada field instance. 
+- Constructor chaining adalah konsep pemanggilan constructor di dalam constructor lain dengan tujuan ketika membuat instance baru maka value nya akan merata dan sesuai pada pemanggilan nya menggunakan this() sesuai dengan parameters nya yg ada dan pemanggilan didalam constructor lain nya harus baris pertama.
