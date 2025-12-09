@@ -96,3 +96,11 @@
 - this adalah keyword yg digunakan sebagai penanda class itu sendiri biasa digunakan untuk me reference field dan method yg ada di class itu.
 - Constructor adalah method khusus sebuah kelas ketika membuat instance object baru dengan new namakelas(). jika tidak membuat constructor maka akan di buat otomatis, tidak ada return type nama method harus sama dengan class nya dan mempunyai konsep overload method. Kegunaan constructor untuk memberikan nilai awal pada field instance. 
 - Constructor chaining adalah konsep pemanggilan constructor di dalam constructor lain dengan tujuan ketika membuat instance baru maka value nya akan merata dan sesuai pada pemanggilan nya menggunakan this() sesuai dengan parameters nya yg ada dan pemanggilan didalam constructor lain nya harus baris pertama.
+
+### Day 9 - [09/12/25]
+**Topic**:
+**What I Learned**: POJO, Annotation, Override, Record
+- pojo adalah singkatan dari plain old java object kegunaan nya adalah hanya untuk menyimpan data, membuat template data yg di gunakan untuk operasi DTO ke DB atau file. Biasa di sebut bean atau javaBean
+- annotation adalah salah satu tipe meta data yg digunakan untuk menjelaskan code, mirip dengan comment lebih ter struktur dan lebih berarti karna bisa di baca oleh compiler sama seperti code dengan tujuan menapilkan informasi tidak impact ke code kita sifat nya optional.
+- Override atau overridden method adalah method yg digunakan pada child class, dengan tujuan menerapkan konsep dry code.
+- Record adalah spesial class yg digunakan untuk menggantikan POJO dengan tambahan peraturan yg lebih ketat perbedaan nya pada pojo adalah tidak ada function setter pada record.
