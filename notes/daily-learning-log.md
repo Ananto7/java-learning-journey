@@ -102,5 +102,13 @@
 **What I Learned**: POJO, Annotation, Override, Record
 - pojo adalah singkatan dari plain old java object kegunaan nya adalah hanya untuk menyimpan data, membuat template data yg di gunakan untuk operasi DTO ke DB atau file. Biasa di sebut bean atau javaBean
 - annotation adalah salah satu tipe meta data yg digunakan untuk menjelaskan code, mirip dengan comment lebih ter struktur dan lebih berarti karna bisa di baca oleh compiler sama seperti code dengan tujuan menapilkan informasi tidak impact ke code kita sifat nya optional.
-- Override atau overridden method adalah method yg digunakan pada child class, dengan tujuan menerapkan konsep dry code.
+- Override atau overridden method adalah method yg digunakan pada child class, dengan tujuan menerapkan konsep dry code. dan memiliki tujuan yg fleksible bisa menggunakan code dari parent tanpa perubahan atau overriden method merubah kode pada child class agar unik.
 - Record adalah spesial class yg digunakan untuk menggantikan POJO dengan tambahan peraturan yg lebih ketat perbedaan nya pada pojo adalah tidak ada function setter pada record.
+
+### Day 10 - [10/12/25]
+**Topic**:
+**What I Learned**: Inheritance, Extends, Super, Polymorphism
+- Inheritance adalah suatu konsep oop pada java, tujuan nya mengatur hirarki parent-child class dengan maksud menggunakan code yg sudah ada pada parent class dan digunakan kembali pada child class.
+- Extends adalah keyword yg digunakan untuk menentukan suatu class menjadi child class / subclass dari class yg ditunjuk sebagai parent nya.
+- Super adalah keyword yg menrujuk kepada parent class pada code child class atau super() bisa disebut sebagai constructor nya parent class.
+- Polymorphism adalah salah satu konsep oop pada java, kegunaan nya membuat code lebih simple, umumnya pada parent class - child class, child class akan menggunakan method yg sudah ada dan merubah nya sesuai dengan karakteristik dari child class itu sendiri.
